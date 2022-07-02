@@ -10,9 +10,7 @@ function App() {
         <Header />
       </header>
       <Slimcards />
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }
