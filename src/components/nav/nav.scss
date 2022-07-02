@@ -10,7 +10,7 @@
   .header-btn {
     outline: none;
     border: none;
-    background-color: var(--primary-text);
+    background-color: var(--text-color);
     color: #fff;
     padding: 1.1em 2.1em;
     border-radius: 50px;
@@ -19,6 +19,6 @@
   }
 
   .header-btn:hover {
-    background-color: var(--primary-btn-hover);
+    background-color: var(--text-color-light-hover);
   }
 }
