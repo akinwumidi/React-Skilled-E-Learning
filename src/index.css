@@ -11,4 +11,28 @@
   --btn-gradient2: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
   --gradient3: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
   --box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
+
+  --primary-text: #13183f;
+  --secondary-text: #83869a;
+  --primary-btn-hover: #666ca3;
+  --hyper-link: #f74780;
+  --hyper-link-hover: #ffa7c3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-orange)
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+
 }

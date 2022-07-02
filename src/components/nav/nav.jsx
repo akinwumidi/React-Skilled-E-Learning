@@ -1,10 +1,15 @@
 import React from 'react'
-import './nav.css'
+import './nav.scss'
 
 const Nav = () => {
   return (
-    <div>
-      <h1>Nav Bar</h1>
+    <div className="container">
+      <nav className="header__nav">
+        <h1 className="logo">skilled</h1>
+        <button className="header-btn">
+          <a href="#"> Get Started</a>
+        </button>
+      </nav>
     </div>
   )
 }

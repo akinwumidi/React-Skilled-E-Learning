@@ -5,10 +5,14 @@ import { Nav, Footer } from './components'
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Header />
+      <header>
+        <Nav />
+        <Header />
+      </header>
       <Slimcards />
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
