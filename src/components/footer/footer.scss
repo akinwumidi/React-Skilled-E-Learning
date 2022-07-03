@@ -16,6 +16,8 @@ footer {
     margin: 15px 0px;
 
     .footer-btn {
+      border: none;
+      outline: none;
       background: var(--gradient3);
       padding: 1em 1.6em;
       border-radius: 50px;
@@ -40,7 +42,7 @@ footer {
     align-items: center;
 
     .footer-btn {
-      margin-top: 20px ;
+      margin-top: 20px;
     }
   }
 }
