@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { Header, Slimcards } from './containers'
 import { Nav, Footer } from './components'
 

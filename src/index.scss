@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@900&family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+
+:root {
+  --font-family: 'Plus Jakarta Sans', sans-serif;
+  --text-color: #13183f;
+  --text-color-light: #83869a;
+  --text-color-light-hover: #666ca3;
+  --dark-orange: #f74780;
+  --light-orange: #ffa7c3;
+  --white-gradient: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  --gradient3: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  --box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
+  --btn-gradient: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  --btn-gradient2: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-orange);
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    max-width: 1100px;
+  }
+}

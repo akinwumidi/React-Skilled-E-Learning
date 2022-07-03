@@ -1,12 +1,12 @@
 .slimcards-section {
-  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  background: var(--white-gradient);
   padding-top: 30px;
 }
 .slyslimcard {
   margin-top: 30px;
   width: 330px;
   height: 250px;
-  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  background: var(--btn-gradient);
   color: #fff;
   padding: 40px 30px;
   border-radius: 12px;
@@ -15,7 +15,7 @@
 }
 .slimcards-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   gap: 50px;

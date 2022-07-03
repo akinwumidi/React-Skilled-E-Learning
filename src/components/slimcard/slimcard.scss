@@ -12,9 +12,8 @@
   justify-content: center;
   align-items: flex-start;
   gap: 15px;
-  -webkit-box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
-  box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
-  //   transition: 0.3s ease;
+  -webkit-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 
   .slim__backslide {
     z-index: 1;
@@ -24,7 +23,7 @@
     left: 0;
     width: 0;
     height: 0;
-    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    background: var(--btn-gradient);
     transition: 0.5s ease-in-out;
   }
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Slimcard } from '../../components'
 import './slimcards.scss'
+import { Slimcard } from '../../components'
 import { Images } from './../../constants'
 
 const Slyslimcard = () => (

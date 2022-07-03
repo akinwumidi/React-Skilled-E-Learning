@@ -4,11 +4,13 @@ import './footer.scss'
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-container container">
-        <h1 class="footer-logo">skilled</h1>
-        <button class="footer-btn">
-          <a href="#">Get Started</a>
-        </button>
+      <div className="container">
+        <div className="footer-container">
+          <h1 className="footer-logo">skilled</h1>
+          <button className="footer-btn">
+            <a href="#">Get Started</a>
+          </button>
+        </div>
       </div>
     </footer>
   )
